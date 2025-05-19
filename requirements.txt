@@ -1,1 +1,8 @@
 streamlit
+pandas
+numpy
+openpyxl
+matplotlib
+seaborn
+koreanize-matplotlib
+xlsxwriter
