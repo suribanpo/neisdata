@@ -17,7 +17,7 @@ with st.sidebar:
     st.header("🔧 설정")
     st.markdown("⚠️ **파일명에 한글/공백/특수문자가 포함되지 않도록 저장 후 업로드하세요.**")
     uploaded_file = st.file_uploader("엑셀 파일 업로드 (.xlsx)", type="xlsx")
-    top_n = st.number_input("상위 N명 보기", min_value=1, max_value=100, value=20)
+    top_n = st.number_input("상위 N명 보기", min_value=1, max_value=300, value=20)
     bin_width = st.slider("히스토그램 bin 너비", min_value=1, max_value=20, value=10)
     st.markdown("---")
 
